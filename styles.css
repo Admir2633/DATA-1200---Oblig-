@@ -1,3 +1,8 @@
+body {
+    background-color: yellow;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
 H1 {
     color: blue;
     font-size: 24px;
