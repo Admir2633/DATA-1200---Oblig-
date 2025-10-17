@@ -3,7 +3,15 @@ body {
     font-family: Arial, sans-serif;
     margin: 20px;
 }
-H1 {
+.box {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 900px;
+    background-color: #fefefe;
+}
+h1 {
     color: blue;
     font-size: 24px;
     text-align: center;
@@ -24,4 +32,15 @@ H1 {
     font-size: 16px;
     text-align: left;
     margin-bottom: 10px;
+}
+.Images {
+    display : flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+}
+Images img {
+    border: 3px solid black;
+    border-radius: 10px;
+    transition: trandsform 0.3s ease;
 }
