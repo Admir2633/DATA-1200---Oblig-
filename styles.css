@@ -33,14 +33,14 @@ h1 {
     text-align: left;
     margin-bottom: 10px;
 }
-.Images {
+.images {
     display : flex;
     justify-content: space-around;
     text-align: center;
     margin-top: 20px;
 }
-Images img {
+.images img {
     border: 3px solid black;
     border-radius: 10px;
-    transition: trandsform 0.3s ease;
+    transition: transform 0.3s ease;
 }
